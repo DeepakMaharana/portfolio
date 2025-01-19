@@ -8,23 +8,25 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", Helvetica, Arial,sans-serif;
+  -webkit-font-smoothing: inherit;
+  font-family: sans-serif;
   letter-spacing: 1px;
 }
 
 body {
-  background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #312E81 100%);
+  /* background: #404258; */
+  background:#101112;
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
   color: white;
-  overflow: hidden;
-
 }
 #root
 {
   width: 100%;
   height: 100%;
+  overflow: auto;
+
 }
 
 *::selection {
@@ -36,7 +38,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 0px;
 }
 
 /* Track */
