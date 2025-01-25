@@ -20,11 +20,11 @@ const Technology = () => {
   return (
     <div className="h-max mb-16">
       {/* Technologies Flex Container */}
-      <h2 className="text-3xl md:text-5xl font-bold mb-4">
+      <h2 className="text-center sm:text-left text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
         Technologies and <span className="text-orange-500">Tools</span>
       </h2>
 
-      <p className="text-lg text-gray-400 mx-auto mb-2">
+      <p className="text-lg  text-gray-400 mx-auto mb-2">
         Using a combination of cutting-edge technologies and reliable
         open-source software I build user-focused, performant apps and websites
         for smartphones, tablets, and desktops.

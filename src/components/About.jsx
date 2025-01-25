@@ -5,8 +5,8 @@ const About = () => {
 
   return (
     <div className="h-max mb-16">
-      <h2 className="text-3xl md:text-5xl font-bold mb-4">About Me</h2>
-      <p className="my-2 text-lg text-gray-400">
+      <h2 className="text-center sm:text-left text-2xl md:text-3xl lg:text-5xl font-bold mb-4">About Me</h2>
+      <p className="my-2 text-lg  text-gray-400">
         Hi, I’m Deepak Maharana, a Full-Stack Developer with a passion for
         building seamless and high-performance web and mobile applications. I
         specialize in crafting intuitive, user-centered designs and writing
@@ -16,7 +16,7 @@ const About = () => {
         and reliable products.
       </p>
 
-      <p className="my-2 text-lg text-gray-400">
+      <p className="my-2 text-lg  text-gray-400">
         On the frontend, I thrive on creating responsive and visually engaging
         interfaces that truly bring ideas to life. Using technologies like
         React, Tailwind CSS, and React Native, I turn design concepts into
@@ -26,7 +26,7 @@ const About = () => {
         growth.
       </p>
 
-      <p className="my-2 text-lg text-gray-400">
+      <p className="my-2 text-lg  text-gray-400">
         I’m constantly exploring new ways to improve user experiences and push
         the boundaries of what’s possible with code. If you’re looking for
         someone who’s not only technically skilled but also passionate about
